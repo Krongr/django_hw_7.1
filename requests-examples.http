@@ -21,7 +21,7 @@ Authorization: Token 165d87707b5fb68468e6c2b7892ede3d96e32e16
 ###
 
 # попытка поменять объявление
-PATCH {{baseUrl}}/advertisements/2/
+DELETE {{baseUrl}}/advertisements/41/
 Content-Type: application/json
 Authorization: Token 165d87707b5fb68468e6c2b7892ede3d96e32e16
 

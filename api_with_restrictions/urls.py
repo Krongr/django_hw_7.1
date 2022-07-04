@@ -22,8 +22,7 @@ from advertisements.views import AdvertisementViewSet
 
 
 router = DefaultRouter()
-router.register('advertisements', AdvertisementViewSet)
-
+router.register('advertisements', AdvertisementViewSet, 'ads')
 
 urlpatterns = [
     path('api/', include(router.urls)),

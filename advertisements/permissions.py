@@ -1,6 +1,5 @@
 from rest_framework.permissions import BasePermission
 from django.contrib.auth.models import User
-from advertisements.models import Advertisement
 
 
 class OwnerOrAdmin(BasePermission):
